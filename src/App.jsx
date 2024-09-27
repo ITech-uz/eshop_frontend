@@ -1,8 +1,13 @@
+import {Button} from "@/components/ui/button.jsx";
+
+
 function App() {
   return (
     <>
       <div className="bg-primary">
-        App
+        <Button>
+            Button
+        </Button>
       </div>
     </>
   );
