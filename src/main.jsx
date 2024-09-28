@@ -1,9 +1,10 @@
-import {StrictMode} from 'react'
-import {createRoot} from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
-import {createBrowserRouter, RouterProvider} from "react-router-dom";
+import './index.css';
+import App from './App.jsx';
+import {StrictMode} from 'react';
 import Login from "@/pages/auth/Login.jsx";
+import {createRoot} from 'react-dom/client';
+import Register from "@/pages/auth/Register.jsx";
+import {createBrowserRouter, RouterProvider} from "react-router-dom";
 
 const router = createBrowserRouter([
   {
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
   {
     path: "/auth/login",
     element: <Login/>,
+  },
+  {
+    path: "/auth/register",
+    element: <Register/>,
   }
 ])
 
