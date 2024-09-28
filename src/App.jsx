@@ -1,13 +1,12 @@
-import {Button} from "@/components/ui/button.jsx";
+
+import Header from "@/components/common/Header.jsx";
 
 
 function App() {
   return (
     <>
-      <div className="bg-primary">
-        <Button>
-            Button
-        </Button>
+      <div>
+        <Header/>
       </div>
     </>
   );
