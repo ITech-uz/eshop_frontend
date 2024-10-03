@@ -10,7 +10,7 @@ import Monitor from '../../assets/images/Monitor.svg'
 import Chexol from '../../assets/images/Chexol.svg'
 import Energy from '../../assets/images/Energy.svg'
 import NoutbookBag from '../../assets/images/NoutbookBag.svg'
-import Watch from '../../assets/images/Watch.svg'
+import Watch from '../../assets/images/Watch2.svg'
 const Texnologes = () => {
   return (
     <div className={'bg-[#E8E8E8] w-[100%]'}>
@@ -22,7 +22,7 @@ const Texnologes = () => {
             <h1 className={'text-[25px] font-bold'}>Telefonlar</h1>
           </div>
           <div>
-            <p className={'text-[20px] text-blue-500 underline'}>Hammasi</p>
+            <p className={'text-[20px] text-blue-500 underline text-end'}>Hammasi</p>
           </div>
           <div className={'flex flex-col items-center gap-4 border-2 p-2 rounded-lg border-gray-300'}>
             <img src={Samsung} alt=""/>
@@ -46,7 +46,7 @@ const Texnologes = () => {
             <h1 className={'text-[25px] font-bold'}>Kompyuterlar</h1>
           </div>
           <div>
-            <p className={'text-[20px] text-blue-500 underline'}>Hammasi</p>
+            <p className={'text-[20px] text-blue-500 text-end underline'}>Hammasi</p>
           </div>
           <div className={'flex flex-col items-center gap-4 border-2 p-2 rounded-lg border-gray-300'}>
             <img src={Noutbook} alt=""/>
@@ -70,7 +70,7 @@ const Texnologes = () => {
             <h1 className={'text-[25px] font-bold'}>Aksessuarlar</h1>
           </div>
           <div>
-            <p className={'text-[20px] text-blue-500 underline'}>Hammasi</p>
+            <p className={'text-[20px] text-end text-blue-500 underline'}>Hammasi</p>
           </div>
           <div className={'flex flex-col items-center gap-4 border-2 p-2 rounded-lg border-gray-300'}>
             <img src={Chexol} alt=""/>
@@ -85,8 +85,8 @@ const Texnologes = () => {
             <p className="title">Noutbook sumkasi</p>
           </div>
           <div className={'flex flex-col items-center gap-4 border-2 p-2 rounded-lg border-gray-300'}>
-            <img src={Monitor} alt=""/>
-            <p className="title">Monitorlar</p>
+            <img src={Watch} alt=""/>
+            <p className="title">Watch</p>
           </div>
         </section>
 
