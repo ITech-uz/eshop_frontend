@@ -3,9 +3,9 @@ import App from './App.jsx';
 import {StrictMode} from 'react';
 import Login from "@/pages/auth/Login.jsx";
 import {createRoot} from 'react-dom/client';
-import Header from "@/components/common/header.jsx";
 import Register from "@/pages/auth/Register.jsx";
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
+import Category from "@/components/common/category.jsx";
 
 const router = createBrowserRouter([
   {
@@ -21,9 +21,9 @@ const router = createBrowserRouter([
     element: <Register/>,
   },
   {
-    path: "/common/header",
-    element: <Header/>,
-  }
+    path: "/common/category",
+    element: <Category/>,
+  },
 ])
 
 createRoot(document.getElementById('root')).render(
