@@ -1,11 +1,20 @@
-import Header from "@/components/common/header.jsx";
+
+import Header from "@/components/common/Header.jsx";
+import Footer from "@/components/common/Footer.jsx";
+import Navbar from "@/components/common/Navbar.jsx";
+import Home from "@/pages/Home.jsx";
 
 
 function App() {
   return (
-    <div className="wrapper">
-      <Header />
-    </div>
+    <>
+      <div>
+        <Header/>
+        <Navbar/>
+        <Home/>
+        <Footer/>
+      </div>
+    </>
   );
 }
 
