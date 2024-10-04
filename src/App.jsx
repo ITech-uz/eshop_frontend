@@ -1,15 +1,11 @@
-import {Button} from "@/components/ui/button.jsx";
+import Header from "@/components/common/header.jsx";
 
 
 function App() {
   return (
-    <>
-      <div className="bg-primary">
-        <Button>
-            Button
-        </Button>
-      </div>
-    </>
+    <div className="wrapper">
+      <Header />
+    </div>
   );
 }
 
