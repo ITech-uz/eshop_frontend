@@ -2,7 +2,7 @@
 import Samsung from '../../assets/images/Samsung.svg';
 import Huwai from '../../assets/images/Huwai.svg';
 import Xiaomi from '../../assets/images/Xiaomi.svg'
-import Iphone from '../../assets/images/Iphone.svg';
+import Iphone from '../../assets/images/iphone.svg';
 import Noutbook from '../../assets/images/Noutbook.svg';
 import Server from '../../assets/images/Kamputer.svg'
 import Monobloc from '../../assets/images/Momoblock.svg'
@@ -13,9 +13,9 @@ import NoutbookBag from '../../assets/images/NoutbookBag.svg'
 import Watch from '../../assets/images/Watch2.svg'
 const Texnologes = () => {
   return (
-    <div className={'bg-[#E8E8E8] w-[100%]'}>
+    <div className={'bg-[#EFEFEF] w-[100%]'}>
 
-      <div className={'max-w-[1600px] mx-auto grid grid-cols-3 py-10 gap-4'}>
+      <div className={'max-w-[1300px] mx-auto grid grid-cols-3 py-10 gap-4'}>
 
         <section className={'grid grid-cols-2 bg-white gap-5 justify-between rounded-xl p-2'}>
           <div className={'w-[90%]'}>

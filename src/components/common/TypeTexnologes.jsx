@@ -20,17 +20,19 @@ const TypeTexnologes = () => {
   }, []);
 
   return (
-    <div className="grid grid-cols-3 gap-3 justify-between max-w-[1300px] mx-auto">
+    <div className={'bg-[#EFEFEF]'}>
+    <div className="grid grid-cols-3 gap-3 justify-between  max-w-[1300px] mx-auto">
       {data.map((item, i) => (
-        <div key={i} className="flex flex-col  gap-4 items-center border-2 p-2 rounded-lg border-gray-300 w-[420px] h-[497px]">
-          <h2 className="text-xl font-bold item-start">{item.title}</h2>
-          <img className="w-[300px]" src={item.img} alt="" />
-          <div className="flex justify-between items-center">
+        <div key={i} className="flex flex-col items-center bg-white gap-4 justify-between p-2 rounded-lg border-gray-300 w-[420px] h-[497px]">
+          <h2 className="text-xl text-start font-bold">{item.title}</h2>
+          <img className="w-[300px] bg-[#EFEFEF]" src={item.img} alt="" />
+          <div className="flex justify-between items-center w-full">
             <p className="text-blue-500 underline">Hammasi</p>
             <p>ta mahsulot</p>
           </div>
         </div>
       ))}
+    </div>
     </div>
   );
 };

@@ -35,7 +35,7 @@ const Header = () => {
         <input
           id="search-input"
           type="text"
-          className='w-[500px] outline-none p-2 text-black border-none rounded-2xl'
+          className=' outline-none p-2 text-black border-none rounded-2xl'
           placeholder='Noutbooklar, telefonlar, barchasini qidiring'
         />
         <img src={Search} alt="Search Icon"/>
