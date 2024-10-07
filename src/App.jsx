@@ -9,7 +9,7 @@ import ChooseComputer from "@/components/common/ChooseComputer.jsx";
 function App() {
   return (
     <>
-      <div>
+      <div className={'bg-[#EFEFEF]'}>
         <Header/>
         <Navbar/>
         <Home/>
