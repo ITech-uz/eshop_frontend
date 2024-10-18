@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
-import Laptop from '../../assets/images/Laptop.svg'
-import Laptopp from '../../assets/images/laptop2.svg'
+import { useState } from 'react';
+import Laptop from '../../assets/images/Laptop.svg';
+import Laptopp from '../../assets/images/laptop2.svg';
+
 const ChooseComputer = () => {
   const [activeSection, setActiveSection] = useState(0);
 
@@ -9,17 +10,21 @@ const ChooseComputer = () => {
   };
 
   return (
-    <div className={'bg-[#EFEFEF] w-[100%]'}>
-      <div className={'max-w-[1300px] mx-auto'}>
-        <h1 className={'text-[25px] font-bold'}>Kompyuter tanlash</h1>
-        <div className={'grid grid-cols-2 gap-4'}>
+    <div className="bg-[#EFEFEF] w-[100%]">
+      <div className="max-w-[1300px] mx-auto mt-5">
+        <h1 className="text-[25px] font-bold p-2">Kompyuter tanlash</h1>
+        <div className="grid grid-cols-2 gap-4">
           <section
-            className={`bg-white p-4 rounded-lg shadow-md ${activeSection === 0 ? 'bg-blue-500' : ''}`}
+            className={` p-4 rounded-lg shadow-md ${
+              activeSection === 0 ? 'bg-blue-500' : 'bg-white'
+            }`}
             onClick={() => handleSectionClick(0)}
           >
-            <div className={'flex justify-between'}>
+            <div className="flex justify-between">
               <p
-                className={`text-[20px] font-bold ${activeSection === 0 ? 'text-white' : ''}`}
+                className={`text-[20px] font-bold ${
+                  activeSection === 0 ? 'text-white' : 'text-black'
+                }`}
                 onClick={() => handleSectionClick(0)}
               >
                 Pulingiz miqdorini kiritgan holda tanlash
@@ -35,15 +40,19 @@ const ChooseComputer = () => {
                 Foydalanib ko‘rish
               </button>
             </div>
-            <img className={'mt-3'} src={Laptop} alt="" />
+            <img className="mt-3" src={Laptop} alt="" />
           </section>
           <section
-            className={`bg-white p-4 rounded-lg shadow-md ${activeSection === 1 ? 'bg-blue-500' : ''}`}
+            className={` p-4 rounded-lg shadow-md ${
+              activeSection === 1 ? 'bg-blue-500' : 'bg-white'
+            }`}
             onClick={() => handleSectionClick(1)}
           >
-            <div className={'flex justify-between'}>
+            <div className="flex justify-between">
               <p
-                className={`text-[20px] font-bold ${activeSection === 1 ? 'text-white' : ''}`}
+                className={`text-[20px] font-bold ${
+                  activeSection === 1 ? 'text-white' : ''
+                }`}
                 onClick={() => handleSectionClick(1)}
               >
                 Pulingiz miqdorini kiritgan holda tanlash
@@ -59,7 +68,7 @@ const ChooseComputer = () => {
                 Foydalanib ko‘rish
               </button>
             </div>
-            <img className={'mt-3'} src={Laptopp} alt="" />
+            <img className="mt-3" src={Laptopp} alt="" />
           </section>
         </div>
       </div>

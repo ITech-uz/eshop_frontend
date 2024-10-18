@@ -101,3 +101,13 @@
   border-radius:40% ;
 
 }
+
+.mySwiper .swiper-slide {
+  width: 310px;
+  height: 310px;
+}
+
+.mySwiper img {
+  width: 310px;
+  height: 310px;
+}
